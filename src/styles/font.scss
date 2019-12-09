@@ -1,0 +1,67 @@
+$font-stack: "Polaris", Helvetica, sans-serif;
+$font-stack-serif: "Copernicus", serif;
+$font-heavy: 900;
+$font-bold: 700;
+$font-medium: 500;
+$font-book: 300;
+$font-light: 100;
+
+/* Make type rendering look crisper */
+/* Disable auto-enlargement of small text in Safari */
+/* Enable kerning and optional ligatures */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+.font-heavy{
+  font-family: $font-stack;
+  font-weight: $font-heavy;
+
+  &-serif {
+    @extend .font-heavy;
+    font-family: $font-stack-serif;
+  }
+}
+
+.font-bold{
+  font-family: $font-stack;
+  font-weight: $font-bold;
+
+  &-serif {
+    @extend .font-bold;
+    font-family: $font-stack-serif;
+  }
+}
+
+.font-medium{
+  font-family: $font-stack;
+  font-weight: $font-medium;
+
+  &-serif {
+    @extend .font-medium;
+    font-family: $font-stack-serif;
+  }
+}
+
+.font-book{
+  font-family: $font-stack;
+  font-weight: $font-book;
+
+  &-serif {
+    @extend .font-book;
+    font-family: $font-stack-serif;
+  }
+}
+
+.font-light{
+  font-family: $font-stack;
+  font-weight: $font-light;
+
+  &-serif {
+    @extend .font-light;
+    font-family: $font-stack-serif;
+  }
+}

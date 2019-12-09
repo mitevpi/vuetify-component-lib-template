@@ -1,0 +1,108 @@
+@import "./font.scss";
+
+.typography-running-head {
+  @extend .font-heavy;
+  font-size: 9pt;
+  &-sm {
+     @extend .typography-running-head;
+     font-size: 9pt;
+   }
+  &-lg {
+    @extend .typography-running-head;
+    font-size: 11pt;
+  }
+}
+
+.typography-page-head {
+  @extend .font-bold;
+  font-size: 22pt;
+  &-sm {
+    @extend .typography-page-head;
+    font-size: 22pt;
+  }
+  &-lg {
+    @extend .typography-page-head;
+    font-size: 26pt;
+  }
+}
+
+.typography-slide-copy {
+  @extend .font-book;
+  font-size: 16pt;
+  &-sm {
+    @extend .typography-slide-copy;
+    font-size: 16pt;
+  }
+  &-lg {
+    @extend .typography-slide-copy;
+    font-size: 20pt;
+  }
+}
+
+.typography-image-caption-subhead {
+  @extend .font-bold;
+  font-size: 11pt;
+  &-sm {
+    @extend .typography-image-caption-subhead;
+    font-size: 11pt;
+  }
+  &-lg {
+    @extend .typography-image-caption-subhead;
+    font-size: 14pt;
+  }
+}
+
+.typography-image-caption-copy {
+  @extend .font-book;
+  font-size: 11pt;
+  &-sm {
+    @extend .typography-image-caption-copy;
+    font-size: 11pt;
+  }
+  &-lg {
+    @extend .typography-image-caption-copy;
+    font-size: 14pt;
+  }
+}
+
+.typography-large-type {
+  @extend .font-medium;
+  font-size: 37pt;
+  &-sm {
+    @extend .typography-large-type;
+    font-size: 37pt;
+  }
+  &-lg {
+    @extend .typography-large-type;
+    font-size: 47pt;
+
+  }
+}
+
+.typography-quote {
+  @extend .font-medium-serif;
+  font-size: 18pt;
+  &-sm {
+    @extend .typography-quote;
+    font-size: 18pt;
+  }
+  &-lg {
+    @extend .typography-quote;
+    font-size: 30pt;
+
+  }
+}
+
+.typography-quote-attribution {
+  @extend .font-heavy-serif;
+  font-size: 10pt;
+  &-sm {
+    @extend .typography-quote-attribution;
+    font-size: 10pt;
+  }
+  &-lg {
+    @extend .typography-quote-attribution;
+    font-size: 14pt;
+
+  }
+}
