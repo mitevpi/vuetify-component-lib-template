@@ -1,6 +1,6 @@
 {
   "name": "component-library",
-  "version": "0.6.0",
+  "version": "1.0.0",
   "description": "Modular, reusable components and styles for use in web applications.",
   "private": true,
   "scripts": {
