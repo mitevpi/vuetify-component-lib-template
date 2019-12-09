@@ -1,7 +1,8 @@
-<img src="https://cdn.auth0.com/blog/vuejs/vue-logo.png" alt="Vue.js" width="100"/>
-<img src="https://www.saashub.com/images/app/service_logos/8/20ef90d04b35/large.png?1527741609" alt="Vuetify.js" width="100"/>
-<img src="https://opencollective-production.s3-us-west-1.amazonaws.com/011fc620-4cb2-11e9-a51a-fdbb10b4cabb.png" alt="Storybook" width="100"/>
-
+<p float="left">
+    <img src="https://cdn.auth0.com/blog/vuejs/vue-logo.png" alt="Vue.js" width="100"/>
+    <img src="https://www.saashub.com/images/app/service_logos/8/20ef90d04b35/large.png?1527741609" alt="Vuetify.js" width="100"/>
+    <img src="https://opencollective-production.s3-us-west-1.amazonaws.com/011fc620-4cb2-11e9-a51a-fdbb10b4cabb.png" alt="Storybook" width="100"/>
+</p>
 
 # Vue.js + Vuetify.js Component Library Template
 
@@ -14,8 +15,8 @@ Built on top of Vue.js and [Vuetify.js](https://vuetifyjs.com/en/).
 
 This Template is comprised of two major categories: [Styles](src/styles)
 and [Components](src/components). It builds to compiled components
-(`.js`) and compiled styles (`.css`) from the source `.vue` files which
-can be used across web applications. It also creates a
+(`.js`) and compiled styles (`.css`) from the source (`.vue`) files
+which can be used across web applications. It also creates a
 [Storybook](https://storybook.js.org/) site for component/design system
 documentation.
 
@@ -66,6 +67,7 @@ Vue.use(HelloWorld);
 Importing the bundled `.js` and `.css` components individually.
 
 ```js
+// main.js
 import HelloWorld from "component-library";
 import "component-library/dist/component-library.css";
 Vue.use(HelloWorld);
@@ -196,14 +198,13 @@ components/styles that will ultimately be compiled to the design system
 library.
 
 ```cmd
-npm i
 npm run serve
 ```
 
-or
+or run the [Storybook](https://storybook.js.org/) instance instead of the preview app
 
 ```cmd
-npm run build:app
+npm run storybook
 ```
 
 #### Library
