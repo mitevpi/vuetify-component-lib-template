@@ -23,4 +23,4 @@ export { HamburgerMenu };
 export { AnimatedLoading };
 
 // Export the library as a plugin
-export default { Components };
+export default Components;

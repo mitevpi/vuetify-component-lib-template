@@ -64,12 +64,11 @@ import HelloWorld from "component-library/src/components";
 Vue.use(HelloWorld);
 ```
 
-Importing the bundled `.js` and `.css` components individually.
+Importing the bundled `.js`:
 
 ```js
 // main.js
 import HelloWorld from "component-library";
-import "component-library/dist/component-library.css";
 Vue.use(HelloWorld);
 ```
 
@@ -81,7 +80,7 @@ Importing the source `.vue` file:
 
 ```js
 // component.vue
-import HelloWorld from "component-library/src/components";
+import HelloWorld from "component-library/src/components/HelloWorld";
 
 export default {
   name: "Tester",
@@ -112,11 +111,15 @@ export default {
 
 #### Loading Compiled CSS
 
-The styles are written in SCSS and compiled upon building this library. 
+The styles are written in SCSS and can be compiled upon building this library. 
 They can be loaded into an application that doesn't have SCSS loading
 capability by referencing/importing the `component-library.css` file which is
 created in the `dist` folder of this repository when executing `npm run
-build`.
+build`. 
+
+In order to enable this functionality, an edit has to be made in
+[`vue.config.js`](vue.config.js). The line `extract: false` must be removed
+or set to true, so that the compiled `.css` file(s) are created upon build.
 
 ```js
 import "component-library/dist/component-library.css";
