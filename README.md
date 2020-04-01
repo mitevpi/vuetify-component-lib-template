@@ -92,7 +92,7 @@ export default {
 </script>
 ```
 
-Importing the bundled `.js` and `.css` components individually.
+Importing the bundled `.js` components individually.
 
 ```js
 // component.vue
