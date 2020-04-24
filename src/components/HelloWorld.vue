@@ -30,10 +30,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../styles/colors.scss";
-@import "../styles/font.scss";
-@import "../styles/typography-screen";
-
 .hello {
   text-align: center;
   font-family: $font-stack;
