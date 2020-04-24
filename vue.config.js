@@ -3,9 +3,7 @@ module.exports = {
     extract: false,
     loaderOptions: {
       sass: {
-        sassOptions: {
-          data: '@import "@/styles/colors.scss";'
-        }
+        prependData: `@import "@/styles/index.scss";`
       }
     }
   },
