@@ -1,4 +1,6 @@
 import Vue from "vue";
+import Vuetify from 'vuetify/lib';
+Vue.use(Vuetify);
 
 import HelloWorld from "./components/HelloWorld.vue";
 import Footer from "./components/Footer.vue";
