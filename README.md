@@ -6,6 +6,18 @@
 
 # Vue.js + Vuetify.js Component Library Template
 
+![GitHub issues](https://img.shields.io/github/issues/mitevpi/vuetify-component-lib-template)
+![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/mitevpi/vuetify-component-lib-template)
+![GitHub contributors](https://img.shields.io/github/contributors/mitevpi/vuetify-component-lib-template)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/mitevpi/vuetify-component-lib-template)
+![GitHub Release Date](https://img.shields.io/github/release-date/mitevpi/vuetify-component-lib-template)
+![GitHub All Releases](https://img.shields.io/github/downloads/mitevpi/vuetify-component-lib-template/total)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/mitevpi/vuetify-component-lib-template)
+![GitHub repo size](https://img.shields.io/github/repo-size/mitevpi/vuetify-component-lib-template)
+![GitHub](https://img.shields.io/github/license/mitevpi/vuetify-component-lib-template)
+
 A Design System / Component Library Template for enabling graphic
 consistency and legibility across web development projects by creating
 reusable components and styles with accessible & legible documentation.
