@@ -1,7 +1,4 @@
 // /.storybook/.babelrc
 {
-  "presets": [
-    "@babel/preset-env",
-    "babel-preset-vue"
-  ]
+  "presets": ["@babel/preset-env", "babel-preset-vue"]
 }

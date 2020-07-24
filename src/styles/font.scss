@@ -1,5 +1,5 @@
-$font-stack: "Polaris", Helvetica, sans-serif;
-$font-stack-serif: "Copernicus", serif;
+$font-stack: 'Polaris', Helvetica, sans-serif;
+$font-stack-serif: 'Copernicus', serif;
 $font-heavy: 900;
 $font-bold: 700;
 $font-medium: 500;
@@ -16,7 +16,7 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-.font-heavy{
+.font-heavy {
   font-family: $font-stack;
   font-weight: $font-heavy;
 
@@ -26,7 +26,7 @@ html {
   }
 }
 
-.font-bold{
+.font-bold {
   font-family: $font-stack;
   font-weight: $font-bold;
 
@@ -36,7 +36,7 @@ html {
   }
 }
 
-.font-medium{
+.font-medium {
   font-family: $font-stack;
   font-weight: $font-medium;
 
@@ -46,7 +46,7 @@ html {
   }
 }
 
-.font-book{
+.font-book {
   font-family: $font-stack;
   font-weight: $font-book;
 
@@ -56,7 +56,7 @@ html {
   }
 }
 
-.font-light{
+.font-light {
   font-family: $font-stack;
   font-weight: $font-light;
 

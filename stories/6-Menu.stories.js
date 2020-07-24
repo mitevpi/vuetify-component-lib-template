@@ -1,13 +1,13 @@
-import HamburgerMenu from "../src/components/HamburgerMenu.vue";
+import HamburgerMenu from '../src/components/HamburgerMenu.vue';
 
 export default {
-  title: "Menu",
+  title: 'Menu',
   parameters: {
-    componentSubtitle: "Various types of menus and navigation components."
-  }
+    componentSubtitle: 'Various types of menus and navigation components.',
+  },
 };
 
 export const Hamburger = () => ({
   components: { HamburgerMenu },
-  template: "<HamburgerMenu/>"
+  template: '<HamburgerMenu/>',
 });

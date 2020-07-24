@@ -1,17 +1,17 @@
 export default {
-  name: "my-button",
+  name: 'my-button',
 
   data() {
     return {
       buttonStyles: {
-        border: "1px solid #eee",
+        border: '1px solid #eee',
         borderRadius: 3,
-        backgroundColor: "#FFFFFF",
-        cursor: "pointer",
+        backgroundColor: '#FFFFFF',
+        cursor: 'pointer',
         fontSize: 15,
-        padding: "3px 10px",
-        margin: 10
-      }
+        padding: '3px 10px',
+        margin: 10,
+      },
     };
   },
 
@@ -23,7 +23,7 @@ export default {
 
   methods: {
     onClick() {
-      this.$emit("click");
-    }
-  }
+      this.$emit('click');
+    },
+  },
 };

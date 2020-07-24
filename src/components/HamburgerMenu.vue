@@ -38,17 +38,17 @@
 // Animated hamburger menu and expand
 
 export default {
-  name: "HamburgerMenu",
+  name: 'HamburgerMenu',
   data: () => ({
     /**
      * @vuese
      * The links to display in the hamburger UI.
      */
     links: [
-      { text: "Home", toggle: false },
-      { text: "About", toggle: true },
-      { text: "Feedback", toggle: "feedback" }
-    ]
+      { text: 'Home', toggle: false },
+      { text: 'About', toggle: true },
+      { text: 'Feedback', toggle: 'feedback' },
+    ],
   }),
   methods: {
     /**
@@ -58,13 +58,13 @@ export default {
      */
     toggleAbout(pageType) {
       console.log(pageType);
-      this.$emit("click");
+      this.$emit('click');
     },
     onMouseEnter(event) {
-      event.target.classList.add("active");
+      event.target.classList.add('active');
     },
     onMouseExit(event) {
-      event.target.classList.remove("active");
+      event.target.classList.remove('active');
     },
     onHamClick(event) {
       if (this.$refs.menu.$refs.content.classList.length > 2) {
@@ -72,8 +72,8 @@ export default {
       } else {
         this.onMouseEnter(event);
       }
-    }
-  }
+    },
+  },
 };
 </script>
 

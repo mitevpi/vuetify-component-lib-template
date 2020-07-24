@@ -3,9 +3,9 @@ module.exports = {
     extract: false,
     loaderOptions: {
       scss: {
-        additionalData: `@import "@/styles/index.scss";`
-      }
-    }
+        additionalData: `@import "@/styles/index.scss";`,
+      },
+    },
   },
-  transpileDependencies: ["vuetify"]
+  transpileDependencies: ['vuetify'],
 };

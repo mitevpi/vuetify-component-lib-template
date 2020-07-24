@@ -9,7 +9,7 @@
             class="image-center-vertical"
             height="18"
             alt="Organisation"
-          >
+          />
         </a>
       </v-flex>
 
@@ -17,7 +17,7 @@
       <v-flex
         xs6
         shrink
-        style="text-align: right"
+        style="text-align: right;"
         href="https://github.com/mitevpi"
       >
         <v-btn
@@ -63,9 +63,9 @@
  Standard Organisation Footer
  * */
 export default {
-  name: "Footer",
+  name: 'Footer',
   components: {},
-  data: () => ({})
+  data: () => ({}),
 };
 </script>
 

@@ -4,7 +4,9 @@
     <p>
       For a guide and recipes on how to configure / customize this project,
       <br />check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+      <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
+        >vue-cli documentation</a
+      >.
     </p>
 
     <p class="typography-running-head">
@@ -17,7 +19,9 @@
         <a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a>
       </li>
       <li>
-        <a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a>
+        <a href="https://forum.vuejs.org" target="_blank" rel="noopener"
+          >Forum</a
+        >
       </li>
     </ul>
   </div>
@@ -25,7 +29,7 @@
 
 <script>
 export default {
-  name: "HelloWorld"
+  name: 'HelloWorld',
 };
 </script>
 

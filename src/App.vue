@@ -7,14 +7,14 @@
 
 <script>
 export default {
-  name: "App",
+  name: 'App',
   components: {
-    Footer: () => import("./components/Footer.vue"),
-    HelloWorld: () => import("./components/HelloWorld.vue")
+    Footer: () => import('./components/Footer.vue'),
+    HelloWorld: () => import('./components/HelloWorld.vue'),
   },
   data() {
     return {};
-  }
+  },
 };
 </script>
 
