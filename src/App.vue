@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <hello-world />
     <Footer />
   </v-app>
 </template>
@@ -8,7 +9,8 @@
 export default {
   name: "App",
   components: {
-    Footer: () => import("./components/Footer.vue")
+    Footer: () => import("./components/Footer.vue"),
+    HelloWorld: () => import("./components/HelloWorld.vue")
   },
   data() {
     return {};

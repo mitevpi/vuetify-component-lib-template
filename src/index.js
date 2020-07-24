@@ -1,11 +1,12 @@
 import Vue from "vue";
-import Vuetify from 'vuetify/lib';
-Vue.use(Vuetify);
+import Vuetify from "vuetify/lib";
 
 import HelloWorld from "./components/HelloWorld.vue";
 import Footer from "./components/Footer.vue";
 import HamburgerMenu from "./components/HamburgerMenu.vue";
 import AnimatedLoading from "./components/AnimatedLoading.vue";
+
+Vue.use(Vuetify);
 
 const Components = {
   HelloWorld,
