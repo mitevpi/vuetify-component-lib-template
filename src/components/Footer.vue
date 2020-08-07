@@ -63,7 +63,7 @@
  Standard Organisation Footer
  * */
 export default {
-  name: 'Footer',
+  name: "Footer",
   components: {},
   data: () => ({}),
 };

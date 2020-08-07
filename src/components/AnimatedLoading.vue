@@ -13,7 +13,7 @@
 // Modal pop-up to show loading progress
 
 export default {
-  name: 'AnimatedLoading',
+  name: "AnimatedLoading",
   props: {
     // whether or not is loading
     loadingDialog: Boolean,

@@ -1,8 +1,8 @@
 export default {
-  title: 'Typography',
+  title: "Typography",
   parameters: {
     componentSubtitle:
-      'Collection of typography styles consistent with Organisation graphic identity & branding.',
+      "Collection of typography styles consistent with Organisation graphic identity & branding.",
   },
 };
 

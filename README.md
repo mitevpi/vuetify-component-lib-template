@@ -71,7 +71,7 @@ Importing the source `.vue` file:
 
 ```js
 // main.js
-import HelloWorld from 'component-library/src/components';
+import HelloWorld from "component-library/src/components";
 Vue.use(HelloWorld);
 ```
 
@@ -79,7 +79,7 @@ Importing the bundled `.js`:
 
 ```js
 // main.js
-import HelloWorld from 'component-library';
+import HelloWorld from "component-library";
 Vue.use(HelloWorld);
 ```
 
@@ -132,7 +132,7 @@ In order to enable this functionality, an edit has to be made in
 or set to true, so that the compiled `.css` file(s) are created upon build.
 
 ```js
-import 'component-library/dist/component-library.css';
+import "component-library/dist/component-library.css";
 ```
 
 #### Loading SCSS Directly
@@ -141,9 +141,9 @@ In order to import and use styles across Vue.js applications, the application wi
 
 ```scss
 // import in vue.js style section
-@import './styles/colors.scss';
-@import './styles/font.scss';
-@import './styles/typography-screen';
+@import "./styles/colors.scss";
+@import "./styles/font.scss";
+@import "./styles/typography-screen";
 ```
 
 After importing, styles may be applied through classes, or through referencing the variables exported by the SASS.

@@ -1,8 +1,8 @@
 export default {
-  title: 'Fonts',
+  title: "Fonts",
   parameters: {
     componentSubtitle:
-      'Collection of fonts consistent with Organisation graphic identity & branding.',
+      "Collection of fonts consistent with Organisation graphic identity & branding.",
   },
 };
 

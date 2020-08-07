@@ -1,10 +1,10 @@
-import AnimatedLoading from '../src/components/AnimatedLoading.vue';
+import AnimatedLoading from "../src/components/AnimatedLoading.vue";
 
 export default {
-  title: 'Loading',
+  title: "Loading",
   parameters: {
     componentSubtitle:
-      'Loading screens, progress bars, and other loading-related components.',
+      "Loading screens, progress bars, and other loading-related components.",
   },
 };
 

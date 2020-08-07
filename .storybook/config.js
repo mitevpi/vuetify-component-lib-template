@@ -1,12 +1,12 @@
-import { configure, addDecorator } from '@storybook/vue';
-import '!style-loader!css-loader!sass-loader!./scss-loader.scss';
-import 'vuetify/dist/vuetify.css';
+import { configure, addDecorator } from "@storybook/vue";
+import "!style-loader!css-loader!sass-loader!./scss-loader.scss";
+import "vuetify/dist/vuetify.css";
 // import '!style-loader!css-loader!@fortawesome/fontawesome-free/css/all.css';
-import '@fortawesome/fontawesome-free/css/all.css';
+import "@fortawesome/fontawesome-free/css/all.css";
 // import "@/plugins/vuetify";
 
-import Vue from 'vue';
-import Vuetify from 'vuetify';
+import Vue from "vue";
+import Vuetify from "vuetify";
 
 Vue.use(Vuetify);
 
@@ -17,4 +17,4 @@ addDecorator(() => ({
 }));
 
 // automatically import all files ending in *.stories.js
-configure(require.context('../stories', true, /\.stories\.js$/), module);
+configure(require.context("../stories", true, /\.stories\.js$/), module);
