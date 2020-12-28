@@ -1,4 +1,5 @@
 {
   "semi": true,
-  "arrowParens": "always"
+  "arrowParens": "always",
+  "endOfLine": "lf"
 }
