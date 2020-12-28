@@ -22,6 +22,7 @@ module.exports = {
     "vue/singleline-html-element-content-newline": "off",
     "vue/require-default-prop": "off",
     "vue/html-closing-bracket-spacing": "off",
+    "vue/no-mutating-props": "warn",
     "vue/max-attributes-per-line": [
       "error",
       {

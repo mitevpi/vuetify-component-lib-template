@@ -1,7 +1,7 @@
 <template>
   <div class="menu">
     <v-menu ref="menu" offset-y>
-      <template v-slot:activator="{ on }">
+      <template #activator="{ on }">
         <svg
           class="ham hamRotate ham4"
           viewBox="0 0 100 100"

@@ -17,7 +17,7 @@
       <v-flex
         xs6
         shrink
-        style="text-align: right;"
+        style="text-align: right"
         href="https://github.com/mitevpi"
       >
         <v-btn
