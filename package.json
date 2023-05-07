@@ -29,7 +29,7 @@
   ],
   "dependencies": {
     "vue": "^2.6.12",
-    "vuetify": "^2.4.0"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
